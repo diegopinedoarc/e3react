@@ -1,8 +1,15 @@
+import Routes from "./routes/Routes";
+import { GlobalStyles } from "./styles/GlobalStyles";
+import { BrowserRouter } from "react-router-dom";
+
 function App() {
   return (
-    <div>
-      <h2>holsdfdsfsdfdsfdsfdsfsdfa</h2>
-    </div>
+    <>
+      <BrowserRouter>
+        <Routes />
+      </BrowserRouter>
+      <GlobalStyles />
+    </>
   );
 }
 
