@@ -20,7 +20,7 @@ export const CardContainerStyled = styled.div`
   border-radius: 50px;
   box-shadow: 10px 10px 25px rgba(174, 174, 192, 0.4);
   box-shadow: -10px -10px 20px #ffffff;
-  color: red;
+  color: var(--verdeoscuro);
 `;
 
 export const CardTextContentContainerStyled = styled.div`

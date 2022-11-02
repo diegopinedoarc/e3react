@@ -10,7 +10,7 @@ export const ImageContainerStyled = styled.div`
   height: 150px;
   background-color: #f0f0f3;
   border-radius: 100px;
-  box-shadow: 10px 10px 30px rgba(174, 174, 192, 0.4), -10px -10px 20px #ffffff;
+  box-shadow: 10px 10px 30px rgba(250, 20, 182, 0.4), -10px -10px 20px #ffffff;
 `;
 
 export const ImageBoxStyled = styled.div`

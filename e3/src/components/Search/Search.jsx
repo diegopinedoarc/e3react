@@ -42,8 +42,9 @@ export const SearchButton = styled.button`
   border-radius: 50%;
   background: var(--verdeoscuro);
   color: wheat;
-  box-shadow: 2px 2px 8px 1px black;
+  box-shadow: 2px 2px 8px 1px var(--verdeoscuro);
   font-weight: bold;
+  cursor: pointer;
 `;
 const Search = ({ handleSubmit }) => {
   const [pokemon, setPokemon] = useState("");
