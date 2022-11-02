@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import { ImSearch } from "react-icons/im";
+import { useDispatch } from "react-redux";
+import { fetchPoke } from "../../Actions/pokeActions";
 
 export const SearchContainerGlobal = styled.div`
   display: flex;
@@ -45,13 +47,14 @@ export const SearchButton = styled.button`
 `;
 const Search = ({ handleSubmit }) => {
   const [pokemon, setPokemon] = useState("");
+  const dispatch = useDispatch();
 
   return (
     <SearchContainerGlobal>
       <SearchFormStyled
         onSubmit={(e) => {
           e.preventDefault();
-          handleSubmit(e, pokemon);
+          dispatch(fetchPoke(e, pokemon));
           setPokemon("");
         }}
       >
