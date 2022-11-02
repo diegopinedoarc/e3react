@@ -22,7 +22,7 @@ export const SearchFormStyled = styled.form`
   padding: 0.5rem 1rem;
   border-radius: 25px;
   box-shadow: 10px 10px 25px rgba(174, 174, 192, 0.4);
-  box-shadow: -10px -10px 20px #ffffff;
+  box-shadow: -10px -10px 20px rgba(250, 20, 182, 0.4);
 `;
 export const SearchInput = styled.input.attrs((props) => ({ type: "text" }))`
   width: 12rem;
