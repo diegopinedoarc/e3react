@@ -42,4 +42,10 @@ export const LogForm = styled.form`
   flex-direction: column;
   margin-top: 2rem;
   gap: 2rem;
+  box-shadow: 10px 10px 30px var(--verdeoscuro);
+  cursor: pointer;
+  width: 24rem;
+  border: none;
+  border-radius: 0.4rem;
+  padding: 2rem;
 `;
