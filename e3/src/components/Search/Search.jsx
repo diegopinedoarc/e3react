@@ -8,7 +8,6 @@ export const SearchContainerGlobal = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-
   width: 100%;
   margin-top: 4rem;
   height: auto;

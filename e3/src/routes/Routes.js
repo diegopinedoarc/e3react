@@ -4,6 +4,7 @@ import Home from "../pages/Home/Home";
 import ToDo from "../pages/ToDo/ToDo";
 import BuscadorPoke from "../pages/BuscaPoke/BuscaPoke";
 import Layout from "../components/Layout/Layout";
+import LogIn from "../pages/LogIn/LogIn";
 
 const Routes = () => {
   return (
@@ -12,6 +13,7 @@ const Routes = () => {
         <Route path="/" element={<Home />} />
         <Route path="todo" element={<ToDo />} />
         <Route path="buscadorpoke" element={<BuscadorPoke />} />
+        <Route path="login" element={<LogIn />} />
       </ReactDomRoutes>
     </Layout>
   );

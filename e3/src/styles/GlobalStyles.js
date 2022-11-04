@@ -4,6 +4,7 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
     margin:0;
     padding:0;
+    
 
 }
 :root {
@@ -15,7 +16,7 @@ export const GlobalStyles = createGlobalStyle`
     --negro: #131415;
 }
 body {
-    background: var(--blanco);
+    background: var(--gris);
     color: var(--azulado);
     display: flex;
     justify-content: center;

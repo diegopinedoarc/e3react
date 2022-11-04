@@ -9,6 +9,7 @@ const NavBar = () => {
         <LinkItem to="/">Home</LinkItem>
         <LinkItem to="todo">ToDo</LinkItem>
         <LinkItem to="buscadorpoke">Pokes</LinkItem>
+        <LinkItem to="login">Log In</LinkItem>
       </NavbarStyled>
     </NavbarContainerStyled>
   );
